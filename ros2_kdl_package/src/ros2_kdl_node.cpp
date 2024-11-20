@@ -274,7 +274,7 @@ class Iiwa_pub_sub : public rclcpp::Node
             KDLController controller_(*robot_); 
 
 
-            if(t_ < total_time)
+            //if(t_ < total_time)
             //if (t_ < wakeup_time)
             {
 
@@ -407,7 +407,7 @@ class Iiwa_pub_sub : public rclcpp::Node
                 // std::cout << "iteration_: " << iteration_ <<std::endl <<std::endl;
                 // std::cout << "/////////////////////////////////////////////////" <<std::endl <<std::endl;
             }
-            else
+            /*else
             {
                 RCLCPP_INFO_ONCE(this->get_logger(), "Trajectory executed successfully ...");
                 // Send joint velocity commands
@@ -420,7 +420,7 @@ class Iiwa_pub_sub : public rclcpp::Node
                 std_msgs::msg::Float64MultiArray cmd_msg;
                 cmd_msg.data = desired_commands_;
                 cmdPublisher_->publish(cmd_msg);
-            }
+            }*/
         }
 
         void joint_state_subscriber(const sensor_msgs::msg::JointState& sensor_msg)
