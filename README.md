@@ -2,10 +2,10 @@
 
 Repository for Homework 2 of Robotics Labs course completed by Marco Bartone P38000237, Giacomo Caiazzo P38000236, Matteo De Simone P38000232, Nicola Monetti P38000238.
 
-Overview
-This is a report of the Homework 2 of Robotics Lab course using Docker and ROS2 with Gazebo. The repo contains the steps to download the folders from github and to run the launch file for the simulations of the built manipulator robot with the position controller, the joint space inverse dynamic torque controller or in the operational space inverse dynamics torque controller.
+# Overview
+This is a report of the Homework 2 of Robotics Lab course. The repository contains the steps to download the folders from github and to run the launch file for the simulations of the built manipulator robot with the position controller, the joint space inverse dynamic torque controller or in the operational space inverse dynamics torque controller.
 
-Usage
+# Usage
 Open the terminal, open the container and enter into the directory where you want to download the folder, then download it with:
 
       $ git clone https://github.com/Marcotocci/Marco-Bartone-Homework2.git
